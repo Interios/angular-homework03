@@ -1,6 +1,6 @@
 .terminal {
     position: relative;
-    width: 600px;
+    max-width: 600px;
     border-radius: 6px;
     padding-top: 45px;
     margin-top: 8px;
@@ -27,22 +27,4 @@
     color: white;
     padding: 0 1rem 1rem;
     margin: 0;
-}
-
-.terminal-item {
-    margin: 15px 0;
-}
-.terminal-item--head {
-    color: #fff92f;
-    margin-bottom: 10px;
-}
-.terminal-item--head:before {
-    content: "✓";
-    font-size: 20px;
-    font-weight: bold;
-    color: green
-}
-.terminal-item input {
-    padding: 5px;
-    border-radius: 5px;
 }
