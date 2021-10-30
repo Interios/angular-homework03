@@ -1,5 +1,7 @@
 # AngularHomework03
 
+stackblitz demo: https://stackblitz.com/github/Interios/angular-homework03
+
 1) What is the difference between structural and attributive directives?
 
 Атрибутивные директивы меняют поведение элемента, к которому они применяются. Например, директива ngClass позволяет установить для элемента класс CSS. При этом сама директива применяется к элементу в виде атрибута: [ngClass]={flag: true}
