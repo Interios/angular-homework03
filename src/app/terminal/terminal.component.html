@@ -1,0 +1,27 @@
+<div class="terminal">
+    <div class="terminal-wrapper">
+        <app-terminal-item>
+            <div class="terminal-item">
+                <div class="terminal-item--head">Create a reverse string pipe. Ex. your value is ‘kitty’  - you will see ‘yttik’</div>
+                <div class="terminal-item--result">Result: {{ homework.reverseValue | reverse }}</div>
+            </div>
+        </app-terminal-item>
+
+        <app-terminal-item>
+            <div class="terminal-item">
+                <div class="terminal-item--head">Modify your reverse string pipe to reverse only a specified number of letters. So, if you specify number 3 - only the first 3 letters of the word will be reversed and others will remain the same.</div>
+                <div class="terminal-item--result">Result: {{ homework.reverseValue | reverse:3 }}</div>
+            </div>
+        </app-terminal-item>
+
+        <app-terminal-item>
+            <div class="terminal-item">
+                <div class="terminal-item--head">Create a custom directive, which will allow only positive numbers to input. Others will be removed.</div>
+                <div class="terminal-item--result">
+                    Result: 
+                    <input type="text" name="weight" appPositive [(ngModel)]="homework.xyz" />
+                </div>
+            </div>
+        </app-terminal-item>
+    </div>
+</div>
