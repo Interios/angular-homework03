@@ -15,7 +15,7 @@ trackByFn задаётся как функиця возращающая резу
 
 3) What is the difference between ngIf and display: none?
 
-display: none является свойством в стилях, а ngIf явно вмешивается в структуру DOM
+display: none является свойством в стилях и меняет только визуальную часть не вмешиваюсь в DOM, а ngIf явно вмешивается в структуру DOM
 
 4) Explain decimal pipe
 
