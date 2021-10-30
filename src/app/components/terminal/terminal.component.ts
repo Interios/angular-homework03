@@ -19,6 +19,6 @@ export class TerminalComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log("terminal start");
+    console.log("terminal open");
   }
 }

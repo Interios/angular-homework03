@@ -10,6 +10,7 @@ export class TerminalItemComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    console.log("terminal task start");
   }
 
 }
