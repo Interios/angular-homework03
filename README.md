@@ -11,11 +11,12 @@ stackblitz demo: https://stackblitz.com/github/Interios/angular-homework03
 2) What is trackByFn?
 
 trackByFn задаётся как функиця возращающая результат над текущим обьектом, используется обычно в связке ngFor.
-Если trackBy задается, Angular отслеживает изменения по возвращаемому значению.
+Если trackBy задается, Angular отслеживает изменения по возвращаемому значению
 
 3) What is the difference between ngIf and display: none?
 
-display: none является свойством в стилях и меняет только визуальную часть не вмешиваюсь в DOM, а ngIf явно вмешивается в структуру DOM
+display: none является свойством в стилях и меняет только визуальную часть не вмешиваюсь в DOM.
+ngIf явно вмешивается в структуру DOM и убирает элемент с дерева
 
 4) Explain decimal pipe
 
