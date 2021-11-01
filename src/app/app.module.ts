@@ -7,14 +7,16 @@ import { TerminalComponent } from './components/terminal/terminal.component';
 import { TerminalItemComponent } from './components/terminal-item/terminal-item.component';
 import { ReversePipe } from './pipes/reverse/reverse.pipe';
 import { PositiveDirective } from './directives/positive/positive.directive';
+import { EvenDirective } from './directives/even/even.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     TerminalComponent,
+    TerminalItemComponent,
     ReversePipe,
     PositiveDirective,
-    TerminalItemComponent
+    EvenDirective
   ],
   imports: [
     BrowserModule,

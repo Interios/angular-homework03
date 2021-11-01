@@ -18,8 +18,12 @@
             <div class="terminal-item">
                 <div class="terminal-item--head">Create a custom directive, which will allow only positive numbers to input. Others will be removed.</div>
                 <div class="terminal-item--result">
-                    Result: 
-                    <input type="text" name="weight" appPositive [(ngModel)]="homework.xyz" />
+                    Result with even number: 
+                    <input type="text" name="weight" appEven [(ngModel)]="homework.evenValue" />
+                </div>
+                <div class="terminal-item--result">
+                    Result with positive number:
+                    <input type="text" name="weight" appPositive [(ngModel)]="homework.positiveValue" />
                 </div>
             </div>
         </app-terminal-item>

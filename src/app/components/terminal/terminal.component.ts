@@ -2,7 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 interface SuperHomework {
   reverseValue: string,
-  xyz: string
+  evenValue: string,
+  positiveValue: string
 }
 
 @Component({
@@ -13,7 +14,8 @@ interface SuperHomework {
 export class TerminalComponent implements OnInit {
   homework:SuperHomework = {
     reverseValue: "kitty",
-    xyz: ""
+    evenValue: "",
+    positiveValue: ""
   }
 
   constructor() { }
